@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CryptoPulse - Real-Time Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>CryptoPulse</h1>
+        <p>Real-time cryptocurrency prices, analytics, and insights.</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog/index.html">Blog</a>
+        </nav>
+    </header>
+
+    <section class="market-section">
+        <h2>Live Market Prices</h2>
+        <div id="crypto-container" class="crypto-grid"></div>
+    </section>
+
+    <section class="chart-section">
+        <h2>Bitcoin Price Chart (Live)</h2>
+        <canvas id="btcChart"></canvas>
+    </section>
+
+    <footer>
+        <p>© 2025 CryptoPulse. Built for real-time crypto insights.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
