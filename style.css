@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0f1a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #131a2b;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #00eaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.crypto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.crypto-box {
+    background: #1b2338;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #00eaff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #131a2b;
+    margin-top: 20px;
+}
